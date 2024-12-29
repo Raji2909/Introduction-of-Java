@@ -1,0 +1,17 @@
+package guviTask4;
+
+public class Task4Q4 {
+	static void swapValuesUsingThirdVariable(int r, int h)
+    {
+        int temp = r;
+        r = h;
+        h = temp;
+        System.out.println("Value of r is " + r
+                           + " and Value of h is " + h);
+    }
+    public static void main(String[] args)
+    {
+        int r = 29, h = 18;
+        swapValuesUsingThirdVariable(r, h);
+    }
+}
